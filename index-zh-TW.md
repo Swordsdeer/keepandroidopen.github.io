@@ -88,13 +88,17 @@ site_copyright: "**版權：**無。此著作乃標記為"
 - 電子郵件：[infokom@kppu.go.id](mailto:infokom@kppu.go.id?cc=indonesia@keepandroidopen.org)
 - 聯絡 [KPPU 提出競爭投訴](https://eng.kppu.go.id)
 - _註：印尼已被指定為率先強制實施開發者註冊的[首階段 4 個國家](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/)之一_
+- 
+#### 瑞士
+
+- 與[競爭委員會](https://www.weko.admin.ch/weko/en/home/kontakt/kontakt.html)開立報告
 
 #### 澳洲
 
 - 電子郵件：[international@accc.gov.au](mailto:international@accc.gov.au?cc=australia@keepandroidopen.org)
 - 與[澳大利亞競爭暨消費者委員會 (ACCC)](https://www.accc.gov.au/about-us/contact-us-or-report-an-issue) 開立報告
 - 傳送請求至澳洲的澳大利亞消費者協會 ([CHOICE](https://accounts.choice.com.au/contact-us/))。請求其向澳大利亞競爭暨消費者委員會 (ACCC) 提出一則指定投訴。
-- 聯絡您當地的國會議員或州參議員。如果您不知道自己的選區，可以在[這裡](https://electorate.aec.gov.au/)查找，並可在[這裡](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)搜尋您的國會議員或參議員。
+- 聯絡您當地的眾議院議員或州參議員。如果您不知道自己的選區，可以在[這裡](https://electorate.aec.gov.au/)查找，並可在[這裡](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)搜尋您的國會議員或參議員。
 
 #### 日本
 
@@ -139,6 +143,15 @@ site_copyright: "**版權：**無。此著作乃標記為"
 #### 菲律賓
 
 - 聯絡[菲律賓競爭委員會 (PCC)](https://www.phcc.gov.ph/)
+
+
+
+#### 捷克共和國
+
+* 電子郵件：[posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)
+* 聯絡[經濟競爭保護辦公室 (Úřad pro ochranu hospodářské soutěže – ÚOHS)](https://www.uohs.gov.cz/en/)
+
+
 
 ### 開發者：奮力抵抗、堅決說不
 
