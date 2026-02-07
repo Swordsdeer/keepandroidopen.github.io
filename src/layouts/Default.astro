@@ -32,10 +32,12 @@ const languageEntries = Object.entries(languages);
 <!DOCTYPE html>
 <html lang={lang}>
 <head>
+  <title>{title}</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{title}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
   <meta name="description" content={description}>
   <meta property="og:title" content={title}>
   <meta property="og:description" content={description}>
@@ -45,19 +47,28 @@ const languageEntries = Object.entries(languages);
   <meta name="twitter:title" content={title}>
   <meta name="twitter:image" content="https://keepandroidopen.org/img/altered-deal.png">
   <link rel="me" href="https://techhub.social/@keepandroidopen">
-  <link rel="stylesheet" href="https://unpkg.com/@primer/css@21/dist/primer.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"> -->
   <style is:global>
+  
+    main {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2em;
+    }
+    
     h1 {
-      font-size: 46px;
-      font-weight: 600;
-      color: #2c3e50;
-      margin: 0;
-      display: flex;
+      /* font-size: 46px; */
+      /* font-weight: 600; */
+      /* color: #2c3e50; */
+      /* margin: 0; */
+      /* display: flex; */
       align-items: center;
       gap: 20px;
       text-align: center;
-      margin-left: auto;
-      margin-right: auto;
+      /* margin-left: auto; */
+      /* margin-right: auto; */
     }
 
     h1::before,
@@ -69,11 +80,6 @@ const languageEntries = Object.entries(languages);
       max-width: 100px;
       margin-left: auto;
       margin-right: auto;
-    }
-
-    html,
-    body {
-      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     }
 
     .outerlync {
@@ -101,8 +107,8 @@ const languageEntries = Object.entries(languages);
     }
 
     footer {
-      padding: 0px;
-      margin: 0px;
+      /* padding: 0px; */
+      /* margin: 0px; */
       font-size: 14px;
       line-height: 1.6;
       width: 100%;
@@ -121,33 +127,67 @@ const languageEntries = Object.entries(languages);
     }
 
     .li-list::before {
-      color: blue;
       margin-right: 0.5em;
     }
 
-    .li-money {
-      background-image: url('/img/money_bag.svg');
+    .li-money::before {
+      mask: url('/img/money_bag.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/money_bag.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
     }
 
-    .li-terms {
-      background-image: url('/img/contract_edit.svg');
+    .li-terms::before {
+      mask: url('/img/contract_edit.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/contract_edit.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
     }
 
-    .li-id {
-      background-image: url('/img/id_card.svg');
+    .li-id::before {
+      mask: url('/img/id_card.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/id_card.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
     }
 
-    .li-signing {
-      background-image: url('/img/fingerprint.svg');
+    .li-signing::before {
+      mask: url('/img/fingerprint.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/fingerprint.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
     }
 
-    .li-appids {
-      background-image: url('/img/receipt.svg');
+    .li-appids::before {
+      mask: url('/img/receipt.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/receipt.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
     }
   </style>
 </head>
 <body>
-  <div class="container-lg px-3 my-5 markdown-body">
+  <header>
     <h1>{title}</h1>
     <div class="lang-menu">
       {languageEntries.map(([_code, { label, path }], i) => (
@@ -157,8 +197,10 @@ const languageEntries = Object.entries(languages);
         </>
       ))}
     </div>
+  </header>
+  <main>
     <slot />
-  </div>
+  </main>
   <footer>
     <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 2em; margin-left: auto; margin-right: auto;">
       <div style="flex: 1; min-width: 200px; margin: 20px;">
