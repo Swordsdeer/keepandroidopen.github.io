@@ -1,7 +1,6 @@
 ---
 import { resolve } from '../i18n/resolve';
 import rightsGroups from '../data/links/rights-groups.yaml';
-import projects from '../data/links/projects.yaml';
 import references from '../data/links/references.yaml';
 import overview from '../data/links/overview.yaml';
 import editorials from '../data/links/editorials.yaml';
@@ -23,14 +22,6 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
 <ul>
   {rightsGroups.items.map((item: any) => (
     <li><a href={resolve(item.url, locale)} target="_blank">{resolve(item.text, locale)} ↗</a></li>
-  ))}
-</ul>
-
-<h4>{resolve(projects.heading, locale)}</h4>
-<p>{resolve(projects.description, locale)}</p>
-<ul>
-  {projects.items.map((item: any) => (
-    <li><a href={item.url} target="_blank">{resolve(item.text, locale)} ↗</a></li>
   ))}
 </ul>
 
