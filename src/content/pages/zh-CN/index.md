@@ -1,7 +1,7 @@
 ---
 title: "Keep Android Open"
 lang: zh-CN
-description: "倡导将Android作为一个免费、开发的平台以供大家构建应用程序。"
+description: "倡导将Android作为一个自由、开放的平台以供大家构建应用程序。"
 
 # localizable sections for the footer text
 contact_header: "联系"
@@ -12,18 +12,17 @@ site_disclaimer: "**免责声明:**本站是一个由社区推动的非商业性
 site_privacy: "**隐私:**本站不使用cookies，以及用户跟踪或记录"
 site_copyright: "**版权:** 无。本著作已标记为"
 
-lockdown_banner: "安卓将成为一个封闭平台"
+lockdown_banner: "安卓将在这段时间后沦为一个封闭平台"
 ---
 
-2025年八月，Google [宣布](https://developer.android.com/developer-verification)从明年开始，
-未先经过向Google集中注册，将不再能为Android平台开发应用程序。
-该注册将涉及：
+2025年8月，Google [宣布](https://developer.android.com/developer-verification)从明年开始，未先经过向Google集中注册，将不再能为Android平台开发应用程序。
+包括但不限于：
 
 - 向Google支付费用
 {:.li-list .li-money}
 - 同意Google的条款及其条件
 {:.li-list .li-terms}
-- 提供政府身份证明
+- 提供身份证明
 {:.li-list .li-id}
 - 上传开发者的私人签名密钥证明
 {:.li-list .li-signing}
@@ -32,9 +31,9 @@ lockdown_banner: "安卓将成为一个封闭平台"
 
 ## 这对于你的权利来说意味着什么
 
-➤ 你，**是消费者**，在购买你的Android设备时相信了Google的这是一个开放的系统平台且你可以在其上运行你选择的任何软件的承诺。然而，截至2026年9月，他们将在未经同意的情况下向你的操作系统推送更新，不可挽回地剥夺了该权利，并让你听从他们对允许信任哪些软件的判断。
+➤ 作为一名**消费者**，在购买你的Android设备时相信了Google的这是一个开放的系统平台且你可以在其上运行你选择的任何软件的承诺。然而，截至2026年9月，他们将在未经同意的情况下向你的操作系统推送更新，不可挽回地剥夺了该权利，并让你听从他们对允许信任哪些软件的判断。
 
-➤ 你，**是创作者**，在没有事先取得Google的批准情况下，不能再开发应用程序并直接与你的亲朋好友和社区分享。Android的承诺————即是它过去常用来将自己与iPhone区分开来的营销优势————一直是“开放的”。但Google显然认为，他们足以对Android生态系统上锁封闭，以及插手干预，他们现在可以以傲慢偏见又不受制裁为由抛弃这一原则。
+➤ 作为一名**创作者**，在没有事先取得Google的批准情况下，你不能再开发应用程序并直接与亲朋好友和社区分享。Android的承诺————即是它过去常用来将自己与iPhone区分开来的营销优势————一直是「开放」的。但Google显然认为，他们足以对Android生态系统上锁封闭，以及插手干预，他们现在可以以傲慢偏见又不受制裁为由抛弃这一原则。
 
 ➤ 你，**是国家**, 在将公民权利和数字主权割让给一家公司，它遵守着威权政权法外要求，可移除唯独不称心如意却完全合法的应用程序。对企业和政府运营的至关重要的软件将要任由一家远在天边而又触不可及的企业进行见不得人而又肆意地摆布。
 
