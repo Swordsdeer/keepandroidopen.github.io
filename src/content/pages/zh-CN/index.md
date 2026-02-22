@@ -51,7 +51,7 @@ lockdown_banner: "安卓将在这段时间后沦为一个封闭平台"
 
 ## 你可以如何出一分力 {#help}
 
-### 开发者: 坚决抵制拒之门外 {#developers}
+### 开发者: 坚决抵制！ {#developers}
 
 如果你是应用开发者，恳请 _**不要注册**_ 抢先体验计划并进行身份验证，又或接受邀请加入Android开发人员控制台。（礼貌地）回绝任何邀请，并列出你的疑虑和异议。
 
@@ -61,9 +61,9 @@ lockdown_banner: "安卓将在这段时间后沦为一个封闭平台"
 
 如果你是一名有心的Google正式员工或合同工，并且对该计划有更多了解，包括计划中的技术实施细节或该计划实施的其他缘由，请通过一台 _非工作_ 设备和 _非Gmail_ 帐户与[tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)联系。你的信息将被严格保密。
 
-### 所有人: 来发出自己的声音 {#everyone}
+### 所有人: 发出自己的声音！ {#everyone}
 
-- 在你的Android设备上[安装F-Droid](https://f-droid.org)。越多人使用替代的应用市场，就越难将其摒弃。
+- 在你的Android设备上[安装F-Droid](https://f-droid.org)。只要越多人使用其他替代的应用市场，就越难将其摒弃。
 - 使用[Android 开发者验证要求调查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接向Google反馈意见。
 - 在社交媒体和博客文章上发出你的声音，并链接到<https://keepandroidopen.org>
 - 对线网络水军：当您在社区论坛和社交媒体上遇到支持该政策的可疑帖子(“其实……”)，不妨以理据争，无所顾忌。
